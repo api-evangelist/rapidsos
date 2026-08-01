@@ -1,8 +1,16 @@
 aid: rapidsos
 name: RapidSOS
-description: RapidSOS is a company surfaced as a portfolio company of insight-partners, playground-global
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  RapidSOS operates what it calls "the world's largest Safety Network," an
+  intelligent safety platform that connects public safety agencies (911 / ECCs),
+  enterprises, and hundreds of millions of connected devices to deliver
+  AI-powered emergency detection, verification, and escalation for faster, more
+  informed emergency response. RapidSOS exposes partner APIs so technology
+  partners can send emergency-related information into the safety platform and
+  public-safety partners can consume incident data, alongside products including
+  Alerts and IAR (IamResponding). The developer documentation at
+  developer.rapidsos.com is partner-login gated and RapidSOS does not publish an
+  open OpenAPI specification. Backed by Insight Partners and Playground Global.
 url: https://raw.githubusercontent.com/api-evangelist/rapidsos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +19,30 @@ x-backed-by:
 - playground-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://rapidsos.com/wp-content/uploads/2026/06/Website-RapidSOS-OG.png
 tags:
 - Company
+- Emergency Response
+- Public Safety
+- Safety
+- Emergency Data
+- Location
+- IoT
+- Alerts
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rapidsos-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/rapidsos-lifecycle.yml
+- type: StatusPage
+  url: https://status.rapidsos.com/
+- type: LLMsTxt
+  url: llms/rapidsos-llms.txt
 - type: Website
   url: https://rapidsos.com/
+- type: DeveloperPortal
+  url: https://developer.rapidsos.com/
+- type: Documentation
+  url: https://developer.rapidsos.com/
+- type: GettingStarted
+  url: https://developer.rapidsos.com/
+- type: SignUp
+  url: https://rapidsosportal.com/
+- type: Support
+  url: mailto:support@rapidsos.com
+- type: Blog
+  url: https://rapidsos.com/blog/
+- type: TrustCenter
+  url: https://trust.rapidsos.com/
+- type: TermsOfService
+  url: https://rapidsos.com/legal/terms-of-use/
+- type: PrivacyPolicy
+  url: https://rapidsos.com/legal/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.rapidsos.com/
+status_page: https://status.rapidsos.com/
+status_page_provider: Site24x7 StatusIQ
+notes: >-
+  RapidSOS publishes a live operational status page at status.rapidsos.com
+  (Site24x7 StatusIQ). No public versioning or deprecation policy could be
+  located; the developer/API documentation at developer.rapidsos.com is
+  partner-login gated, so versioning and Sunset/Deprecation header support are
+  not publicly verifiable. This file records only what was verified on the
+  public surface.
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
