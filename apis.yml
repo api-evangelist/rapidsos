@@ -43,7 +43,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 image: https://rapidsos.com/wp-content/uploads/2026/06/Website-RapidSOS-OG.png
 tags:
 - Company
@@ -61,6 +61,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://rapidsos.com/newsroom/
+  type: Blog
+- url: https://rapidsos.com/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/rapidsos-domain-security.yml
 - type: Lifecycle
